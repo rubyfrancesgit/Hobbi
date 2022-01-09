@@ -1,0 +1,46 @@
+.side-nav {
+    width: 20vw;
+    height: 100vh;
+    background: $light-mist;
+    @include spread-column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    float: left;
+
+    &__logo-div {
+        display: flex
+    }
+
+    &__ul {
+        padding-bottom: 30rem;
+    }
+
+    &__li {
+        padding-top: 1rem;
+    }
+
+    &__login-container {
+        @include center-column;
+    }
+
+    &__login-btn {
+        @include button-beginnings;
+        width: 10rem;
+        margin-bottom: 1rem;
+        background: none;
+    }
+
+    &__sign-up-btn {
+        @include button-beginnings;
+        width: 10rem;
+        background: white;
+    }
+}
+
+.top-nav {
+    width: 100vw;
+    height: 10vh;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+}
