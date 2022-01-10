@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+        <title>Hobbi</title>
+
+        <!-- local css -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <!-- side nav -->
+        <nav class="side-nav">
+            <div class="side-nav__logo-div">
+                <img class="side-nav__img" src="./images/hobbi-logo.svg" alt="Hobbi logo">
+                <h1 class="hobbi-logo"><a href="./index.html">Hobbi</a></h1>
+            </div>
+
+            <ul class="side-nav__ul">
+                <li class="side-nav__li p-text"><a href="./about.html">About</a></li>
+                <li class="side-nav__li p-text">Host a session</li>
+            </ul>
+
+            <div class="side-nav__login-container">
+                <a href="./login.html"><button class="side-nav__login-btn p-text">Login</button></a>
+                <a href="./sign-up.html"><button class="side-nav__sign-up-btn p-text">Sign up</button></a>
+            </div>
+
+            <div class="side-nav__profile-div hide">
+                <a href="./profile.html"><img class="side-nav__profile-div-img" src="./images/rubyPic.jpeg" alt="Ruby's portrait"></a>
+                <p class="p-text side-nav__name"><a href="./profile.html">Ruby Doyle</p></a>
+            </div>
+        </nav>
+
+        <div class="right-page">
+            <section class="hosting">
+                <h1 class="h2-text">Host a session</h1>
+
+                <p class="p-text">Three things you need to be a Hobbi host:</p>
+
+                <form class="hosting__form" action="#">
+                    <div class="hosting__div">
+                        <img class="hosting__checkbox" onclick="checkOne()" id="emptyCheckboxOne" src="./images/empty-checkbox.svg" alt="unchecked checkbox">
+
+                        <img class="hosting__checkbox hide" onclick="unCheckOne()" id="tickedCheckboxOne" src="./images/ticked-checkbox.svg" alt="ticked checkbox">
+
+                        <label class="hosting__p" for="hostingCheckbox1"><b>Experience</b> - you don’t need to be an expert by any means! But you’ve got to know your way around the hobby you teach - at least enough to show a beginner.</label>
+                    </div>
+
+                    <div class="hosting__div">
+                        <img class="hosting__checkbox" onclick="checkTwo()" id="emptyCheckboxTwo" src="./images/empty-checkbox.svg" alt="unchecked checkbox">
+
+                        <img class="hosting__checkbox hide" onclick="unCheckTwo()" id="tickedCheckboxTwo" src="./images/ticked-checkbox.svg" alt="ticked checkbox">
+
+                        <label class="hosting__p" for="hostingCheckbox1"><b>Equipment</b> - if you’re teaching a hobby that requires equipment or materials, you’ll need this for the session. Plan out any equipment you need ahead of time.</label>
+                    </div>
+
+                    <div class="hosting__div">
+                        <img class="hosting__checkbox" onclick="checkThree()" id="emptyCheckboxThree" src="./images/empty-checkbox.svg" alt="unchecked checkbox">
+
+                        <img class="hosting__checkbox hide" onclick="unCheckThree()" id="tickedCheckboxThree" src="./images/ticked-checkbox.svg" alt="ticked checkbox">
+
+                        <label class="hosting__p" for="hostingCheckbox1"><b>Teaching</b> - Hobbi is all about learning new skills, so you’ll have to be comfortable teaching people. If you don’t have official teaching experience, no worries! You can always start by teaching a friend first.</label>
+                    </div>
+                </form>
+
+                <button class="hosting__btn"><a href="./apply.html">Apply here</a></button>
+
+                <p class="hosting__contact p-text">Not sure if you’re a good fit? 
+                    Get in contact and we can talk it through with you!
+                    <br>Email us at hobbi@gmail.com</p>
+            </section>
+            
+            <div class="border-div"></div>
+
+            <footer class="footer">
+                <h2 class="footer__h2">Contact</h2>
+                <p class="p-text">hobbi@gmail.com</p>
+            </footer>
+        </div>
+
+        <!-- jquery script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- local javascript -->
+        <script src="./script.js"></script>
+    </body>
+</html>

@@ -18,6 +18,7 @@
     &__btn {
         width: 15rem;
         @include button-beginnings;
+        font-weight: bold;
         border: none;
         background: $feature-colour;
         box-shadow: $box-shadow;

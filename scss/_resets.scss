@@ -25,7 +25,15 @@ a{
 
 input {
     text-align: center;
-  }
+}
+
+input:focus{
+    border: none !important;
+}
+
+input::placeholder:focus {
+    color: transparent !important;
+}
   
   ::-webkit-input-placeholder {
     text-align: center;

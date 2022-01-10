@@ -1,0 +1,70 @@
+.application {
+    width: 100;
+    height: 90vh;
+    @include center-column;
+
+    &__div {
+        width: 35%;
+        height: 60%;
+        @include center-column;
+    }
+
+    &__input {
+        @include button-beginnings;
+        background: $light-mist;
+        margin-bottom: 1rem;
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    &__input:focus {
+        outline: none;
+    }
+
+    &__input:focus::placeholder {
+        color: transparent;
+    }
+
+    &__input::placeholder {
+        color: $light-text;
+        text-align: left;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__info-div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__name {
+        width: 63%;
+    }
+
+    &__age {
+        width: 33%;
+    }
+
+    &__email {
+        width: 100%
+    }
+
+    &__contact-number {
+        width: 58%;
+    }
+
+    &__city {
+        width: 38%;
+    }
+
+    &__description {
+        border-radius: 10px !important;
+        width: 100%;
+        height: 15rem;
+    }
+
+    &__btn {
+        @include blue-btn;
+    }
+}
