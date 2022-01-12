@@ -55,6 +55,14 @@
     margin-bottom: 5rem;
     @include center-column;
 
+    &__h2 {
+        @include h2-text;
+    }
+
+    &__p {
+        @include p-text;
+    }
+
     &__container {
         margin-top: 5rem;
         width: 100%;

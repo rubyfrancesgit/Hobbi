@@ -69,34 +69,6 @@ li {
   height: 100vh;
   overflow-y: scroll; }
 
-.p-text {
-  font-family: "Roboto", sans-serif;
-  color: #606060;
-  font-size: 1.5rem; }
-
-.light-p-text {
-  font-family: "Roboto", sans-serif;
-  color: #C4C4C4;
-  font-size: 1.5rem; }
-
-.h1-text {
-  font-family: "Roboto", sans-serif;
-  color: #606060;
-  font-size: 2.5rem;
-  margin-bottom: 2rem; }
-
-.h2-text {
-  font-family: "Roboto", sans-serif;
-  color: #606060;
-  font-weight: bold;
-  font-size: 2.2rem; }
-
-.h3-text {
-  font-family: "Roboto", sans-serif;
-  color: #606060;
-  font-weight: bold;
-  font-size: 1.8rem; }
-
 .border-div {
   width: 100vw;
   border-top: 1px dashed #cecece; }
@@ -125,6 +97,9 @@ li {
     top: 25%;
     left: 30%; }
   .side-nav__li {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem;
     padding-top: 1rem; }
   .side-nav__login-container {
     display: flex;
@@ -132,6 +107,9 @@ li {
     align-items: center;
     flex-direction: column; }
   .side-nav__login-btn {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem;
     border: 1px solid #606060;
     border-radius: 360px;
     padding-top: .5rem;
@@ -141,6 +119,9 @@ li {
     margin-bottom: 1rem;
     background: none; }
   .side-nav__sign-up-btn {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem;
     border: 1px solid #606060;
     border-radius: 360px;
     padding-top: .5rem;
@@ -165,6 +146,9 @@ li {
     box-shadow: -2px 2px 5px lightgray;
     cursor: pointer; }
   .side-nav__name {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem;
     cursor: pointer; }
 
 .top-nav {
@@ -240,6 +224,15 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  .how-it-works__h2 {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-weight: bold;
+    font-size: 2.2rem; }
+  .how-it-works__p {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem; }
   .how-it-works__container {
     margin-top: 5rem;
     width: 100%;
@@ -267,6 +260,10 @@ li {
     font-weight: bold;
     font-size: 1.8rem;
     margin-bottom: 1rem; }
+  .footer__p {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem; }
 
 .about {
   width: 100%;
@@ -281,6 +278,9 @@ li {
     font-size: 2.5rem;
     margin-bottom: 4rem; }
   .about__p {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem;
     width: 50ch;
     margin-bottom: 4rem; }
   .about__btn {
@@ -328,6 +328,9 @@ li {
     align-items: center;
     padding-right: 4rem; }
   .contact__p {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem;
     width: 40ch; }
   .contact__contact-container {
     width: 50%;
@@ -565,6 +568,9 @@ li {
     width: 65ch;
     padding-left: 3rem; }
   .hosting__contact {
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+    font-size: 1.5rem;
     text-align: center; }
   .hosting__btn {
     border: 1px solid #606060;

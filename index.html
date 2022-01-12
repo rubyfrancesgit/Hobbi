@@ -21,6 +21,8 @@
     </head>
 
     <body>
+        <div id="sideNavContainer"></div>
+        
         <!-- side nav -->
         <nav class="side-nav">
             <div class="side-nav__logo-div">
@@ -29,18 +31,18 @@
             </div>
 
             <ul class="side-nav__ul">
-                <li class="side-nav__li p-text"><a href="./about.html">About</a></li>
-                <li class="side-nav__li p-text"><a href="./hosting.html">Host a session</a></li>
+                <li class="side-nav__li"><a href="./about.html">About</a></li>
+                <li class="side-nav__li"><a href="./hosting.html">Host a session</a></li>
             </ul>
 
             <div class="side-nav__login-container">
-                <a href="./login.html"><button class="side-nav__login-btn p-text">Login</button></a>
-                <a href="./sign-up.html"><button class="side-nav__sign-up-btn p-text">Sign up</button></a>
+                <a href="./login.html"><button class="side-nav__login-btn">Login</button></a>
+                <a href="./sign-up.html"><button class="side-nav__sign-up-btn">Sign up</button></a>
             </div>
 
             <div class="side-nav__profile-div hide">
                 <a href="./profile.html"><img class="side-nav__profile-div-img" src="./images/rubyPic.jpeg" alt="Ruby's portrait"></a>
-                <p class="p-text side-nav__name"><a href="./profile.html">Ruby Doyle</p></a>
+                <p class="side-nav__name"><a href="./profile.html">Ruby Doyle</p></a>
             </div>
         </nav>
 
@@ -117,22 +119,22 @@
 
             <!-- How it works section -->
             <section class="how-it-works">
-                <h2 class="h2-text">How it works</h2>
+                <h2 class="how-it-works__h2">How it works</h2>
 
                 <div class="how-it-works__container">
                     <div class="how-it-works__div">
                         <img class="how-it-works__img" src=".//images/bulb-education.svg" alt="lightbulb and graduation cap icons">
-                        <p class="p-text">Connect with hobbiests to learn new skills, hands-on & in-person.</p>
+                        <p class="how-it-works__p">Connect with hobbiests to learn new skills, hands-on & in-person.</p>
                     </div>
     
                     <div class="how-it-works__div">
                         <img class="how-it-works__img" src=".//images/calendar.svg" alt="calendar icon">
-                        <p class="p-text">Flexible learning: Book sessions whenever it works best for you.</p>
+                        <p class="how-it-works__p">Flexible learning: Book sessions whenever it works best for you.</p>
                     </div>
     
                     <div class="how-it-works__div">
                         <img class="how-it-works__img" src=".//images/brush-camera.svg" alt="paint brush and camera icons">
-                        <p class="p-text">Helping you get better access to equipment, materials & tutors.</p>
+                        <p class="how-it-works__p">Helping you get better access to equipment, materials & tutors.</p>
                     </div>
                 </div>
             </section>
@@ -169,9 +171,9 @@
             
             <div class="border-div"></div>
 
-            <footer class="footer">
-                <h2 class="footer__h2">Contact</h2>
-                <p class="p-text">hobbi@gmail.com</p>
+            <footer class="footer" id="footer">
+                <!-- <h2 class="footer__h2">Contact</h2>
+                <p class="footer__p">hobbi@gmail.com</p> -->
             </footer>
         </div>
 
@@ -179,6 +181,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <!-- local javascript -->
-        <script src="./script.js"></script>
+        <script src="./javascript/script.js"></script>
+        <script src="./javascript/modules.js"></script>
     </body>
 </html>

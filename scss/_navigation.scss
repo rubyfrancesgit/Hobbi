@@ -2,7 +2,10 @@
     width: 20vw;
     height: 100vh;
     background: $light-mist;
-    @include spread-column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     padding-top: 5rem;
     padding-bottom: 5rem;
     float: left;
@@ -21,6 +24,7 @@
     }
 
     &__li {
+        @include p-text;
         padding-top: 1rem;
     }
 
@@ -29,6 +33,7 @@
     }
 
     &__login-btn {
+        @include p-text;
         @include button-beginnings;
         width: 10rem;
         margin-bottom: 1rem;
@@ -36,6 +41,7 @@
     }
 
     &__sign-up-btn {
+        @include p-text;
         @include button-beginnings;
         width: 10rem;
         background: white;
@@ -60,6 +66,7 @@
     }
 
     &__name {
+        @include p-text;
         cursor: pointer;
     }
 }

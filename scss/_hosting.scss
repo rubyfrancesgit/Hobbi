@@ -45,6 +45,7 @@
     }
 
     &__contact {
+        @include p-text;
         text-align: center
     }
 
